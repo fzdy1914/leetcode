@@ -1,10 +1,12 @@
 class Solution:
+    # TODO revise
     def decodeString(self, s: str) -> str:
         number_stack = []
         string_stack = []
 
         i = 0
         while i < len(s):
+            # isnumeric()
             if s[i].isnumeric():
                 j = i + 1
                 while s[j].isnumeric():
