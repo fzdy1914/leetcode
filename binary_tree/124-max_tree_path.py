@@ -1,5 +1,3 @@
-# TODO
-
 class Solution:
     def maxPathSum(self, root) -> int:
         def half_full_sum(root):
