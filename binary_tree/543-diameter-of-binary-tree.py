@@ -13,7 +13,7 @@ class Solution:
         result = 0
 
         def traverse(node):
-            # TODO: nolocal
+            # TODO: nonlocal
             nonlocal result
             if node is None:
                 return 0
